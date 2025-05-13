@@ -1,0 +1,64 @@
+
+//res/menu
+
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_submitted_complaints"
+        android:title="exmaple"
+        />
+
+    <item
+        android:id="@+id/nav_blog"
+        android:title="blog" />
+
+    <item
+        android:id="@+id/nav_awareness_video"
+        android:title="exmaple" />
+
+    <item
+        android:id="@+id/nav_minor_children"
+        android:title="Rights of Minor Children" />
+
+    <group
+        android:id="@+id/group_two"
+        >
+        <item
+            android:id="@+id/nav_share_app"
+            android:title="Share app" />
+
+        <item
+            android:id="@+id/nav_developer_info"
+            android:title="Developer Info"
+            />
+
+    </group>
+
+
+    <!-- Section Divider (optional) -->
+    <item android:title="More Options">
+        <menu>
+
+            <!--
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/baseline_settings_24"
+                android:title="Settings" />
+
+                -->
+
+            <item
+                android:id="@+id/nav_send_feedback"
+
+                android:title="Feedback" />
+
+            <item
+                android:id="@+id/nav_help"
+
+                android:title="Help" />
+        </menu>
+    </item>
+
+</menu>

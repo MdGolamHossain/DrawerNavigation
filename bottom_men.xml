@@ -1,0 +1,40 @@
+//res/menu
+
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/home5"
+        />
+
+    <item
+        android:id="@+id/cart"
+        android:title="Cart"
+        android:icon="@drawable/cart10"
+        />
+
+    <item
+        android:id="@+id/message"
+        android:title="Message"
+        android:icon="@drawable/message5"
+        />
+
+    <item
+        android:id="@+id/activities"
+        android:title="Blog"
+        android:icon="@drawable/blog5"
+        />
+
+
+    <item
+        android:id="@+id/profile"
+        android:title="Profile"
+        android:icon="@drawable/profile5"
+
+        />
+
+    
+
+</menu>
